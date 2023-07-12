@@ -1,5 +1,6 @@
 # functions.php
 Woocommerce product sorting by price and stock
+Все товары что в наличии будут отображаться в начале > нет в налчии в конце.
 
 
 add_filter('posts_clauses', 'order_by_stock_status');
